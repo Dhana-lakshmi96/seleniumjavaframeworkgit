@@ -7,15 +7,16 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class TestNg_propertiesfile {
-		public static String browsername=null;
-		static WebDriver driver=null;
+		public static String browsername;
+		static WebDriver driver;
 	
 		
-	@BeforeSuite
+	@BeforeClass
 	public static void setup() throws IOException {
 		
 		String projectpath=System.getProperty("user.dir");

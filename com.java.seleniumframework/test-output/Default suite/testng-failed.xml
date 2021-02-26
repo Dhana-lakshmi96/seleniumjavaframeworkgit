@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.selenium.test.MultiBrowserDemo_TestNG">
+      <class name="com.wordpress.Testcases.VerifyValidLogin">
         <methods>
-          <include name="browsers"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
+          <include name="checklogin"/>
         </methods>
-      </class> <!-- com.selenium.test.MultiBrowserDemo_TestNG -->
+      </class> <!-- com.wordpress.Testcases.VerifyValidLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

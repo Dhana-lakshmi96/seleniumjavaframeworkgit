@@ -26,7 +26,7 @@ public class Testng_demo {
 		
 		driver.findElement(By.id("email")).sendKeys("dhanatene4e2");
 		driver.findElement(By.name("pass")).sendKeys("23456");
-		driver.findElement(By.id("u_0_b")).click();
+		//driver.findElement(By.id("u_0_b")).click();
 		
 		
 	}

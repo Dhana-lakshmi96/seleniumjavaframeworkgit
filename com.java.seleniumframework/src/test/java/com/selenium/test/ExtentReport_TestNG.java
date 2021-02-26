@@ -14,9 +14,9 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ExtentReport_TestNG {
-	ExtentReports extent=null;
-	WebDriver driver=null;
-	ExtentTest test=null;
+	ExtentReports extent;
+	WebDriver driver;
+	ExtentTest test;
 	
 	@BeforeSuite
 	public void setUp() {
